@@ -25,67 +25,58 @@
 
 ## Installation
 
-1. Download or clone the repository (zip download recommended)
-    ```
-    git clone https://github.com/rosphrethic/artemis.git
-    ```
+Download or clone the repository
+```
+git clone https://bitbucket.org/rosphrethic/artemis.git
+```
 
-1. Install packages
-   ```
-   composer install
-   ```
+Install packages
+```
+composer install
+```
 
-1. Create your environment file
-   ```
-   cp .env.example .env
-   ```
+Create your environment file
+```
+cp .env.example .env
+```
 
-1. Generate project key
-   ```
-   php artisan key:generate
-   ```
+Generate project key
+```
+php artisan key:generate
+```
 
-1. Create storage folder link
-   ```
-   php artisan storage:link
-   ```
+Create storage folder link
+```
+php artisan storage:link
+```
 
-1. Configure your environment file, do not forget the following variables
-    ```
-    APP_NAME=Artemis
-    APP_URL=http://artemis.test
-    ```
+Configure your environment file, do not forget the following variables
+```
+APP_NAME=Artemis
+APP_URL=http://artemis.test
+```
 
-1. Run migrations
-   ```
-   php artisan migrate --seed
-   ```
+Run migrations
+```
+php artisan migrate:fresh --seed
+```
 
-   This will seed the database with demo users with the following credentials
-   ```
-   Administrator User
-   email: admin@artemis.com
-   password: password
-   
-   Engineer User  
-   email: demoengineer@artemis.com
-   password: password
-   ```
-
-   There are other seeders for the other tables, for more information view:
-    ```
-    /artemis/database/seeders/DatabaseSeeder.php
-    ```
-   
-1.  Link Valet
-   ```
-   valet link
-   ```
+Link Valet
+```
+valet link
+```
 
 ## Usage
 
 To access the project, go to:
 
-   ```
-   http://artemis.test
-   ```
+```
+http://artemis.test
+```
+
+Log in with the following credentials:
+```
+Administrator User
+email: admin@artemis.com
+password: password
+```
