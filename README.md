@@ -6,8 +6,6 @@
   </a>
 </div>
 
-# Artemis
-
 ## Built With
 
 [![Laravel][Laravel.com]][Laravel-url]
