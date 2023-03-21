@@ -32,7 +32,7 @@
 
 1. Download or clone the repository
     ```
-    git clone https://bitbucket.org/rosphrethic/artemis.git
+    git clone git@github.com:rosphrethic/artemis.git
     ```
    
 1. Install packages
@@ -55,7 +55,7 @@
     php artisan storage:link
     ```
    
-1. Configure your environment file, do not forget the following variables
+1. Configure your environment file and do not forget the following variables
     ```
     APP_NAME=Artemis
     APP_URL=http://artemis.test
