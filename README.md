@@ -1,10 +1,4 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="#">
-    <img src="logo-2.png" alt="logo" height="70">
-  </a>
-</div>
+![Alt text](logo-2.svg)
 
 ## Built With
 
